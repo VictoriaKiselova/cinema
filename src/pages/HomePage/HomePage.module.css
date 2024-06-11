@@ -1,0 +1,11 @@
+.title {
+  text-align: center;
+  width: 700px;
+  background-color: rgb(156, 31, 152);
+  padding: 10px 100px;
+  border-radius: 3px;
+  filter: drop-shadow(5px 5px 5px rgb(17, 9, 16));
+}
+.container {
+  color: #fff;
+}
