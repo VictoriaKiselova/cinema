@@ -1,0 +1,9 @@
+export const selectTrand = state => state.movies.moviesTrand;
+export const selectListSearchMovie = state => state.movies.moviesSearch;
+export const selectQuery = state => state.movies.queryMovie;
+export const selectLatestMovies = state => state.movies.latestMovies;
+export const selectDetails = state => state.movies.movieDetails;
+export const selectCast = state => state.movies.movieCast;
+export const selectReviews = state => state.movies.movieReviews;
+export const selectLoading = state => state.movies.loading;
+export const selectError = state => state.movies.error;

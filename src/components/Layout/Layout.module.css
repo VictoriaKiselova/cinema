@@ -1,0 +1,29 @@
+.wrapper {
+  background-color: #1f1e1f;
+  min-width: 320px;
+  max-width: 375px; 
+  margin: 0 auto;
+  padding: 0 15px 10px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  height: 100%;
+  overflow: hidden;
+
+}
+
+@media screen and (min-width: 768px) {
+  .wrapper {
+    min-width: 768px;
+    padding: 0 20px 15px 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .wrapper {
+    min-width: 1200px;
+    padding: 0 110px 20px 110px;
+  }
+}

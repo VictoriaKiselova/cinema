@@ -1,0 +1,39 @@
+.form {
+    background-color: #fff;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    border-radius: 5px;
+    padding: 0;
+}
+.input {
+  padding: 5px;
+  width: 168px;
+  border: none;
+  background-color: #fff;
+  color: black;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 5px;
+  outline: none;  
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border: none;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 7px;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.iconSearch{
+  stroke: #333333;
+  width: 18px;
+  height: 18px;
+}

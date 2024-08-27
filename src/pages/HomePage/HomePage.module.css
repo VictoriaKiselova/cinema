@@ -1,11 +1,32 @@
+.homePageContainer {
+  min-width: 320px;
+  max-width: 375px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
 .title {
   text-align: center;
-  width: 700px;
-  background-color: rgb(156, 31, 152);
-  padding: 10px 100px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: #575757;
+  padding: 3px;
   border-radius: 3px;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
   filter: drop-shadow(5px 5px 5px rgb(17, 9, 16));
+  margin: 0;
 }
 .container {
   color: #fff;
+}
+.titlePage {
+  text-transform: uppercase;
+  color: #fff;
+  font-style: italic;
+  font-size: 18px;
+  margin: 0;
+  display: block;
 }

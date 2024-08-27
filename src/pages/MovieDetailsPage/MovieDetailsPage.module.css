@@ -1,18 +1,46 @@
 .container {
-  padding: 20px 10px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 5px;
+}
+.listDitailsContainer {
+  padding: 0;
+  margin: 0;
 }
 .wrapper {
   display: flex;
-  gap: 25px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
 }
 .image {
-  width: 350px;
-  height: 450px;
+  display: block;
+  width: 310px;
+  height: 220px;
   object-fit: contain;
-  filter: drop-shadow(5px 5px 5px rgb(17, 9, 16));
+  filter: drop-shadow(5px 15px 15px rgb(17, 9, 16));
+}
+.title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 0 5px 0;
+}
+.movieDescription {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ececec;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  margin: 0 0 10px 0;
+}
+.subtitle {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 0;
 }
 .listStyle {
   list-style-type: none;
@@ -20,17 +48,35 @@
 .list {
   display: flex;
   gap: 6px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ececec;
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 .year {
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
   margin-left: 8px;
 }
 .link {
-  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  color: #ececec;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  text-decoration: none;
 }
 .link:hover {
-  color: rgb(211, 84, 207);
+  text-decoration: underline;
+}
+.infoMovie {
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 0;
 }
 .infoLink {
   display: flex;
@@ -43,15 +89,28 @@
   flex-wrap: nowrap;
   align-items: center;
   justify-content: center;
-  gap: 5px;
-  color: #fff;
+  gap: 4px;
+  color: #ececec;
+  font-size: 16px;
+  font-weight: 400;
   text-decoration: none;
   padding: 2px 5px;
   border: 1px solid #b4b1b3;
-  border-radius: 5px;
+  border-radius: 3px;
   filter: drop-shadow(5px 5px 5px rgb(17, 9, 16));
 }
+.icon {
+  width: 16px;
+  height: 16px;
+  fill: #fff;
+}
 .buttonBack:hover {
-  color: rgb(211, 84, 207);
-  background-color: #fff;
+  color: #000;
+  background-color: #b8b8b8;
+}
+.buttonBack:hover .icon {
+  fill: #000;
+}
+hr {
+  margin: 18px 0;
 }

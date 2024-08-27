@@ -1,0 +1,46 @@
+.modalContent {
+  z-index: 1001 !important;
+  background-color: rgba(24, 24, 24, 0.9);
+  padding: 30px;
+  position: absolute;
+  top: 64px;
+  left: 50%;
+  transform: translateX(-50%);
+  min-width: 320px;
+  width: 375px;
+  overflow: auto;
+}
+.ReactModal__Overlay {
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.closeButton {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+}
+.list {
+  margin: 0;
+  padding: 0;
+}
+.listMenu {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+  list-style-type: none;
+}
+.iconMenu {
+  width: 20px;
+  height: 20px;
+  fill: aliceblue;
+}
